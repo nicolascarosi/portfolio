@@ -67,7 +67,7 @@ const Projects = () => (
     <Wrapper>
       <StyledProjectsContainer>
         {items.map((item, i) => (
-          <ProjectItem key={`project-${i}`} {...item} />
+          <ProjectItem key={`project-${i}`} {...item}/>
         ))}
       </StyledProjectsContainer>
     </Wrapper>

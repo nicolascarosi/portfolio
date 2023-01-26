@@ -3,7 +3,7 @@ import { Menu } from "layout";
 import { Wrapper } from "utils";
 
 const Header = () => (
-    <StyledHeader>
+    <StyledHeader data-animation="fade-in">
         <Wrapper>
             <Menu />
         </Wrapper>

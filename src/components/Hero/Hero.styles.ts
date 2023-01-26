@@ -70,9 +70,6 @@ const StyledHeroContainer = styled.div`
   }
   @media (max-width: ${breakpoints.screenLg}) {
     width: 75%;
-    .info {
-      
-    }
   }
   @media (max-width: ${breakpoints.screenMd}) {
     width: 100%;

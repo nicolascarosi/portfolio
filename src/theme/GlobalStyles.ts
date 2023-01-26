@@ -78,6 +78,7 @@ const GlobalStyles = createGlobalStyle`
         --primary-font: "Poppins", "Segoe UI", "Helvetica Neue", helvetica, arial, sans-serif;
         ${generateTheme('light')};
         --header-height: 80px;
+        --fadeAnimationDelay: 1600ms;
     }
 
     html, body {
@@ -153,6 +154,124 @@ const GlobalStyles = createGlobalStyle`
 
     .page-home {
         overflow: hidden;
+    }
+
+
+    //Animations
+    @keyframes scaleIn {
+        0% {
+            transform: scale(0.75);
+            opacity: 0;        
+        }
+        75% {
+            transform: scale(1.05);
+        }
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    [data-animation="scale-in"] { 
+        animation: 600ms scaleIn forwards ease-in-out;
+        animation-play-state: paused;
+        transform: scale(0);
+        opacity: 0;
+        @media (min-width: ${breakpoints.screenLg}) {
+            animation-delay: calc(var(--index) * 300ms);
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {opacity: 0;}
+        70% {opacity: 1;}
+        100% {opacity: 1;}
+    }
+
+    [data-animation="fade-in"] { 
+        animation: var(--fadeAnimationDelay) fadeIn forwards ease-out;
+        animation-play-state: paused;
+        opacity: 0;
+    }
+
+    @keyframes fadeInLeft {
+        0% {
+            transform: translateX(-20%);
+            opacity: 0;        
+        }
+        70% {opacity: 1;}
+        100% {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+    }
+
+    [data-animation="fade-in-left"] { 
+        animation: var(--fadeAnimationDelay) fadeInLeft forwards;
+        animation-play-state: paused;
+        transform: translateX(-20%);
+        opacity: 0;
+    }
+
+    @keyframes fadeInRight {
+        0% {
+            transform: translateX(20%);
+            opacity: 0;        
+        }
+        70% {opacity: 1;}
+        100% {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+    }
+
+    [data-animation="fade-in-right"] { 
+        animation: var(--fadeAnimationDelay) fadeInRight forwards;
+        animation-play-state: paused;
+        transform: translateX(20%);
+        opacity: 0;
+    }
+
+    @keyframes fadeInTop {
+        0% {
+            transform: translateY(-20%);
+            opacity: 0;        
+        }
+        70% {opacity: 1;}
+        100% {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+    }
+
+    [data-animation="fade-in-top"] { 
+        animation: var(--fadeAnimationDelay) fadeInTop forwards;
+        animation-play-state: paused;
+        transform: translateY(-20%);
+        opacity: 0;
+    }
+
+    @keyframes fadeInBottom {
+        0% {
+            transform: translateY(20%);
+            opacity: 0;        
+        }
+        70% {opacity: 1;}
+        100% {
+            transform: translateX(0%);
+            opacity: 1;
+        }
+    }
+
+    [data-animation="fade-in-bottom"] { 
+        animation: var(--fadeAnimationDelay) fadeInBottom forwards;
+        animation-play-state: paused;
+        transform: translateY(20%);
+        opacity: 0;
+    }
+
+    .is-inViewport {
+        animation-play-state: running;
     }
     
  `

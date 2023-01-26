@@ -6,7 +6,7 @@ const TitleAndParagraph = ({title, paragraph, square = false}: ITitleAndParagrap
   <StyledTitleAndParagraph>
     <Wrapper>
       {square ?
-        <div className="square-after">
+        <div className="square-after" data-animation="fade-in">
           <h2>{title}</h2>
         </div>
       :

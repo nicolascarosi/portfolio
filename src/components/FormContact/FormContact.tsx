@@ -35,7 +35,7 @@ const FormContact = () => {
 
   return (
     <StyledFormContact id="contact">
-      <Wrapper>
+      <Wrapper data-animation="fade-in">
         <div className="form-header">
           <h3>I occasionally take on freelance opportunities.</h3>
           <p>Have an exciting project where you need some help?</p>
