@@ -49,10 +49,11 @@ const StyledHero = styled.section`
 
 const StyledHeroContainer = styled.div`
   width: 60%;
+  position: relative;
+  z-index: 50;
   .info {
     color: var(--white);
     position: relative;
-    z-index: 20;
     h1 {
       ${fontSize(52, 600, 60)};
     }
