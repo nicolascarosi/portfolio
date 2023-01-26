@@ -36,6 +36,7 @@ const StyledHero = styled.section`
     }
   }
   @media (max-width: ${breakpoints.screenSm}) {
+    padding: 120px 0 0;
     .square-before {
       &::before {
         width: 50px;
