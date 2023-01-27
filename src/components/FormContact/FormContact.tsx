@@ -39,7 +39,7 @@ const FormContact = () => {
         <div className="form-header">
           <h3>I occasionally take on freelance opportunities.</h3>
           <p>Have an exciting project where you need some help?</p>
-          <p>Send me over a message</p>
+          <p>Send me a message</p>
         </div>
         <StyledFormContactContainer id="contactForm" onSubmit={handleOnSubmit}>
           <input name="name" placeholder='Enter your name...' onChange={handleChangeName}/>
