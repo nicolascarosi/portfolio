@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.6952b861.js",
+    "main.js": "/portfolio/static/js/main.3a4620d0.js",
     "static/media/profile.png": "/portfolio/static/media/profile.4aa6996b3eee11951dfc.png",
     "static/media/Poppins-Light.ttf": "/portfolio/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
     "static/media/Poppins-Regular.ttf": "/portfolio/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
@@ -8,21 +8,21 @@
     "static/media/Poppins-Bold.ttf": "/portfolio/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/portfolio/static/media/Poppins-ExtraBold.01849ee091e1762a5dd5.ttf",
     "static/media/bg-creatribe.png": "/portfolio/static/media/bg-creatribe.a01bdb7cdc52c6ce5a90.png",
-    "static/media/logo-directv.svg": "/portfolio/static/media/logo-directv.092d34edd93646af6de5606fc4ac63e5.svg",
+    "static/media/logo-directv.svg": "/portfolio/static/media/logo-directv.0af849786311a56854f283c9d6e1eee3.svg",
     "static/media/logo-gazoo.png": "/portfolio/static/media/logo-gazoo.b5a94a6b92f16ff0a0a9.png",
-    "static/media/logo-rimas.svg": "/portfolio/static/media/logo-rimas.06b7fdaf6034364d21b616d29985737f.svg",
+    "static/media/logo-rimas.svg": "/portfolio/static/media/logo-rimas.b1b473c1ce0fc6d8419d59b3574bdef9.svg",
     "static/media/logo-toyota.png": "/portfolio/static/media/logo-toyota.3a82a3ef6aa2428262fa.png",
-    "static/media/logo-human-banking.svg": "/portfolio/static/media/logo-human-banking.1e80243b358659f383e7fe47da8e70cb.svg",
+    "static/media/logo-human-banking.svg": "/portfolio/static/media/logo-human-banking.6eb92899e0d905d1c2f8f1df6d18f093.svg",
     "static/media/logo-mac-center.svg": "/portfolio/static/media/logo-mac-center.cdb145fb0692460b12b839eebed22292.svg",
-    "static/media/logo-veritran.svg": "/portfolio/static/media/logo-veritran.ae74cad0c1155d3a36d5125d18d89142.svg",
-    "static/media/logo-creatribe.svg": "/portfolio/static/media/logo-creatribe.457a2ace5f0e6076321a38e11c7fe76b.svg",
-    "static/media/logo-ypf.svg": "/portfolio/static/media/logo-ypf.ece3541ca775f0e74e426f2fe50ce90b.svg",
+    "static/media/logo-veritran.svg": "/portfolio/static/media/logo-veritran.9cd06184d75574a87ee310c1114a2f7f.svg",
+    "static/media/logo-creatribe.svg": "/portfolio/static/media/logo-creatribe.523cc33863ed66fb4c715cacd350a4c1.svg",
+    "static/media/logo-ypf.svg": "/portfolio/static/media/logo-ypf.be15779394c2317fc382c5d00e50c772.svg",
     "static/media/icon-github.svg": "/portfolio/static/media/icon-github.efd3a58460958be69fcfbb81ee95d1bc.svg",
     "index.html": "/portfolio/index.html",
     "static/media/icon-linkedin.svg": "/portfolio/static/media/icon-linkedin.95d8d5eafd250cd6c1dd8a8085ca64b4.svg",
-    "main.6952b861.js.map": "/portfolio/static/js/main.6952b861.js.map"
+    "main.3a4620d0.js.map": "/portfolio/static/js/main.3a4620d0.js.map"
   },
   "entrypoints": [
-    "static/js/main.6952b861.js"
+    "static/js/main.3a4620d0.js"
   ]
 }
